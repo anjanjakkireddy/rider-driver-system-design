@@ -14,26 +14,26 @@
 
 
 
-##Services :
+## Services :
 
-### RegistrationService
+### 1. RegistrationService
 a. FirstName, LastName
 b. UserType (Rider, Driver)
 c. CreditCard/BankAccount to be onFile
-### RideRequestService
+### 2. RideRequestService
 a. Source 
 b. Destination
 c. Time (Optional)
-### DriverRideService
+### 3. DriverRideService
 a. Source
 b. Destination
 c. Time (Optional)
-### RideAcceptService
+### 4. RideAcceptService
 a. Rider details 
 b. RideId
 c. Store in Duplicate Check table
 d. Store in RideAccept Table
-### PaymentService
+### 5. PaymentService
 a. Make Payment (using Token)
-### PaymentProfile 
+### 6. PaymentProfile 
 a. Account 
