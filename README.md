@@ -1,12 +1,12 @@
 # rider-driver-system-design
 
-Rider Functions
+## Rider Functions
 -- Profile
 -- requesting ride
 -- making a payment
 -- History of rides
 
-Driver functions
+## Driver functions
 -- Profile
 -- accepting a ride
 -- receiving payment 
@@ -14,26 +14,26 @@ Driver functions
 
 
 
-Services :
+##Services :
 
--- RegistrationService
+### RegistrationService
 	-- FirstName, LastName
 	-- UserType (Rider, Driver)
 	-- CreditCard/BankAccount to be onFile
--- RideRequestService
+### RideRequestService
 	-- Source 
 	-- Destination
 	-- Time (Optional)
--- DriverRideService
+### DriverRideService
 	-- Source
 	-- Destination
 	-- Time (Optional)
--- RideAcceptService
+### RideAcceptService
 	-- Rider details 
 	-- RideId
 	-- Store in Duplicate Check table
 	-- Store in RideAccept Table
--- PaymentService
+### PaymentService
 	-- Make Payment (using Token)
--- PaymentProfile 
+### PaymentProfile 
 	-- Account 
